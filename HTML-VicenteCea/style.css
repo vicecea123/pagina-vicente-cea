@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      local("Open Sans"),
+      url("/fonts/opensans.woff2") format("woff2"),
+      url("/fonts/opensans.woff") format("woff"),
+      url("/fonts/opensans.ttf") format("truetype");
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .article-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .add-article {
+      text-align: center;
+      margin-top: 20px;
+    }
+  .article-card:hover{
+      background-color: black;
+      color: white;
+  }
+  .imagen-reducida {
+    width: 600px; /* Establece un ancho de 200 píxeles */
+    height: auto; /* Mantiene la proporción de aspecto */
+  }
+  .Noticia {
+      font-size: 20px;
+  }
+  footer{
+      font-size: 50px;
+      color: #31231e;
+      background-color: #c9d2d0;
+  }
+  a {
+    color: blue; 
+  }
+  a:hover {
+      font-weight: bold;
+      text-decoration: none;
+  }
+  
+  img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #datetime {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color:#A2A7B0 ;
+    padding: 20px;
+}
+
+/* Estilos para los enlaces del menú */
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+img.logo{
+    width: 200px; 
+    height: auto;
+    align-content: center; 
+}
+.navbar-expand-lg bg-dark-subtle {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-articulo{
+    font-size: small;
+}
+.titulo-articulo{
+    font-size: medium;
+}
+
+.auspiciadores{
+    color: blue;
+}
+
+.noticia-destacada{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.textofooter{
+    font-size: medium;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-content {
+    font-size: 14px;
+  }
+
+  .footer-content p {
+    margin: 5px 0;
+  }
+
+  .footer-content a {
+    color: #333;
+    text-decoration: none;
+  }
+  .d-block{
+    filter: brightness(0.5);;
+  }
+  img.logo{
+    filter: brightness(0.8);
+  }
